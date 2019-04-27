@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import React from 'react';
 import _ from 'lodash';
 
@@ -15,6 +15,9 @@ function Todo() {
         setInputText("");
         setCountList(newlist);
     }
+    useEffect(() => {
+        document.title = "您有"+countList.length+"条任务";
+    });
     return (
         <div>
             <p>TODO</p>
