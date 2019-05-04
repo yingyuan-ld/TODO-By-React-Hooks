@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");//将CSS代码�
 // const SaasCssLoader = require('@mini-css-extract-plugin');//迪哥处理css
 module.exports = {
     mode:'development',
-    mode:'production',
+    // mode:'production',
     entry: [
         './src/index.js'
     ],

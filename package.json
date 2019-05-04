@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack",
-    "dev1": "./node_modules/.bin/webpack --watch"
+    "dev": "./node_modules/.bin/webpack --watch"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
